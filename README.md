@@ -11,7 +11,7 @@ This WindowsForm Project runs in the background and collects the following infor
 * Foreground window's process name
 * Foreground window's title
 
-It creates a log (.txt) file with current system date as it's name, like **Thursday, January 4,2018.txt**. If file exists, it would be opened to append the data. Say, you're watching a video on YouTube in Google Chrome at 10:00 AM in the morning. This application would save that activity as follows
+It creates a log (.txt) file with current system date as it's name, like **Thursday, January 4,2018.txt**. If the file exists, it would be opened in the append mode. Say, you're watching a video on YouTube in Google Chrome at 10:00 AM in the morning. This application would save that activity as follows
 
 > chrome # Your tab's title # 10:00:21 AM
 
