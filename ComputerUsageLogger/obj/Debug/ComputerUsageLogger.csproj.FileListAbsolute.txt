@@ -1,0 +1,15 @@
+c:\users\haris\source\repos\ComputerUsageLogger\ComputerUsageLogger\bin\Debug\ComputerUsageLogger.exe.config
+c:\users\haris\source\repos\ComputerUsageLogger\ComputerUsageLogger\bin\Debug\ComputerUsageLogger.exe
+c:\users\haris\source\repos\ComputerUsageLogger\ComputerUsageLogger\bin\Debug\ComputerUsageLogger.pdb
+c:\users\haris\source\repos\ComputerUsageLogger\ComputerUsageLogger\obj\Debug\ComputerUsageLogger.csprojResolveAssemblyReference.cache
+c:\users\haris\source\repos\ComputerUsageLogger\ComputerUsageLogger\obj\Debug\ComputerUsageLogger.Form1.resources
+c:\users\haris\source\repos\ComputerUsageLogger\ComputerUsageLogger\obj\Debug\ComputerUsageLogger.Properties.Resources.resources
+c:\users\haris\source\repos\ComputerUsageLogger\ComputerUsageLogger\obj\Debug\ComputerUsageLogger.csproj.GenerateResource.Cache
+c:\users\haris\source\repos\ComputerUsageLogger\ComputerUsageLogger\obj\Debug\ComputerUsageLogger.csproj.CoreCompileInputs.cache
+c:\users\haris\source\repos\ComputerUsageLogger\ComputerUsageLogger\obj\Debug\ComputerUsageLogger.exe
+c:\users\haris\source\repos\ComputerUsageLogger\ComputerUsageLogger\obj\Debug\ComputerUsageLogger.pdb
+C:\Users\haris\source\repos\ComputerUsageLogger\ComputerUsageLogger\bin\Debug\ComputerUsageLogger.exe.manifest
+C:\Users\haris\source\repos\ComputerUsageLogger\ComputerUsageLogger\bin\Debug\ComputerUsageLogger.application
+C:\Users\haris\source\repos\ComputerUsageLogger\ComputerUsageLogger\obj\Debug\ComputerUsageLogger.TrustInfo.xml
+C:\Users\haris\source\repos\ComputerUsageLogger\ComputerUsageLogger\obj\Debug\ComputerUsageLogger.exe.manifest
+C:\Users\haris\source\repos\ComputerUsageLogger\ComputerUsageLogger\obj\Debug\ComputerUsageLogger.application
