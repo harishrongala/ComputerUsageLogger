@@ -69,7 +69,7 @@ namespace ComputerUsageLogger
 
         private void notifyIcon1_MouseDoubleClick(object sender, MouseEventArgs e)
         {
-
+            throw new NotImplementedException();
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
