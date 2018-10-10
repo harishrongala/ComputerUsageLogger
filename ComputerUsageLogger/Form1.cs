@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using System.Diagnostics;
@@ -29,6 +22,7 @@ namespace ComputerUsageLogger
         {
             InitializeComponent();
             String filePath = @"C:\Users\haris\Dropbox\computerUsageLogs\" + DateTime.Today.ToLongDateString() + ".txt";
+
             if (!File.Exists(filePath))
             {
                 sw = File.CreateText(filePath);
@@ -44,9 +38,6 @@ namespace ComputerUsageLogger
 
             threadForLogging = new Thread(keepLogging);
             threadForLogging.Start();
-
-           
-
         }
 
         public void keepLogging()
@@ -64,11 +55,9 @@ namespace ComputerUsageLogger
                 WindowTitle.Replace('#', '-');
                 timeStamp.Replace('#', '-');
                 // Field Seperator is #
-                //Console.WriteLine(ProcessName + " # " + WindowTitle + " # " + timeStamp);
                 sw.WriteLine(ProcessName + " # " + WindowTitle + " # " + timeStamp);
                 // Log Every minute
                 Thread.Sleep(60000);
-
             }
         }
         private void Form1_Load(object sender, EventArgs e)
@@ -76,12 +65,11 @@ namespace ComputerUsageLogger
             this.ShowInTaskbar = false;
             this.Opacity = 0.0f;
             this.WindowState = FormWindowState.Minimized;
-            
         }
 
         private void notifyIcon1_MouseDoubleClick(object sender, MouseEventArgs e)
         {
-
+            throw new NotImplementedException();
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
